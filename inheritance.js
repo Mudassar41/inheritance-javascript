@@ -18,3 +18,10 @@ Person.prototype.age=function(){
 }
 
 jhon.age()
+console.log(jhon.__proto__==Person.prototype)
+
+//setting propertirs in prototype
+
+Person.prototype.country='Pakistan'
+
+console.log(jhon.country)
